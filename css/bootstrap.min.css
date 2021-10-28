@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .navbar-nav {
+      float: left;
+      margin: 0;
+    }
+    .navbar-nav > li {
+      float: left;
+      padding:15px 17px 15px 16px;
+    }
+    .navbar-nav > li > a {
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+    .navbar-nav.navbar-right:last-child {
+      margin-right: -34px;
+    }
+  }
