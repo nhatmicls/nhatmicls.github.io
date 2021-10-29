@@ -1,0 +1,14 @@
+.menu-item a{
+    color: rgb(224, 224, 224);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 14px; 
+    padding-right: 0px;
+    text-decoration: none;  
+}
+
+.menu-item a:hover{
+    color: #ababab;
+}

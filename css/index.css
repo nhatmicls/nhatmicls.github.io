@@ -9,31 +9,3 @@ html{
     margin: 0;
     padding: 0;
 }
-
-nav ul {
-    float: right;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1px;
-
-    font-family: "Raleway";
-    font-weight: 800;
-    font-size: 14px; 
-
-    padding-right: 10px;
-}
-  
-nav ul li {
-    display: inline-block;
-    margin: 20px; 
-}
-
-nav ul li a {
-    color: #000;
-    text-decoration: none;  
-}
-
-nav ul li a:hover {
-    color: #ababab;
-}
