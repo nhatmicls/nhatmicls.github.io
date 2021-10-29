@@ -7,33 +7,30 @@
     }
 }
 
+@media (min-width: 768px) {
+    .navbar-logo-left {
+      float: left !important;
+    }
+    .navbar-logo-right {
+      float: right !important;
+    }
+}
+
 .navbar-right > ul > li{
     display: inline-block;
     margin: 15px;
+}
+
+.navbar-logo-left > a{
+    display: inline-block;
+    margin: 40px 0px 0px 20px;
 }
 
 .navbar {
     margin: 40px 20px 0px 0px;
 }
 
-.navbar-nav > li {
-    padding: 0px;
+.container{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
-
-.navbar > li > a{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px;
-}
-
-/* @media (min-width: 768px){
-    .navbar-nav {
-        float: left;
-        margin: 0;
-    }
-    .navbar-nav > li {
-        display: inline-block;
-        margin: 20px;
-        padding:15px 17px 15px 16px;
-    }
-} */
