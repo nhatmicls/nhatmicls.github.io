@@ -1,12 +1,15 @@
-html{
-    background: url('../image/main.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
-}
-
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.home{
+    background: url('../image/main.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    background-color: white;
 }
